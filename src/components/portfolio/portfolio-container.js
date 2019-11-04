@@ -59,7 +59,7 @@ export default class PortfolioContainer extends Component {
     if (this.state.isLoading) {
       return <div>Loading...</div>;
     }
-
+    //
     return (
       <div className="homepage-wrapper">
         <div className="filter-links">
